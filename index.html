@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicine Ordering Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>ONLINE MEDICINE ORDERING</h1>
+        <p>Order medicines easily through your doctor's prescription</p>
+    </header>  
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Prescription Upload</a>
+        <a href="#">Medicine Catalog</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Prescription Upload Section -->
+    <section>
+        <h2>Upload Your Prescription here</h2>
+        <p>Upload a scanned copy or photo of your prescription to order medicines.</p>
+
+        <form>
+            <div class="form-group">
+                <label for="doctor-name">Doctor's Name:</label>
+                <input type="text" id="doctor-name" name="doctor-name" required placeholder="Enter Doctor's Name">
+            </div>
+            <div class="form-group">
+                <label for="prescription">Upload Prescription (PDF, JPG, PNG):</label>
+                <input type="file" id="prescription" name="prescription" required accept="image/*,application/pdf">
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit Prescription here</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Medicine Catalog Section -->
+    <section>
+        <h2>Available Medicines</h2>
+        <div class="medicine-list">
+            <div class="medicine-card">
+                <img src="https://via.placeholder.com/150" alt="Medicine">
+                <h3>Medicine 1</h3>
+                <p>Description of Medicine 1.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="medicine-card">
+                <img src="https://via.placeholder.com/150" alt="Medicine">
+                <h3>Medicine 2</h3>
+                <p>Description of Medicine 2.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="medicine-card">
+                <img src="https://via.placeholder.com/150" alt="Medicine">
+                <h3>Medicine 3</h3>
+                <p>Description of Medicine 3.</p>
+                <button>Order Now</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Online Medicine Ordering APP | All Rights Reserved ✅</p>
+    </footer>
+
+</body>
+
+</html>

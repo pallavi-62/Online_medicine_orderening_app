@@ -1,0 +1,106 @@
+/* Global Styles */
+body {
+    font-family: Benjamin, Didot;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #a7d3b3;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    color:rgb(153, 162, 54);
+    margin:5;
+}
+
+nav {
+    background-color: #168b4109;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+/* Section Styling */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #218838;
+}
+
+/* Medicine Catalog */
+.medicine-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.medicine-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.medicine-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5x;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
